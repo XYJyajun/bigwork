@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>LAM</title>
+        <link rel="stylesheet" href="../css/LAM.css">
+    </head>
+    <body>
+        <header class="top"><!--页眉区-->
+            <h1>留言</h1>
+            <div class="inner"></div>
+         </header>
+
+        <nav><!--导航区-->
+            <ul>
+                <li><a href="../index.html">
+                    <span class="item-name">主页</span>
+                </a></li>
+                <li><a href="./study.html" title="学习经历">
+                    <span class="item-name">学习经历</span>
+                </a></li>
+                <li><a href="./travel.html" title="旅游经历">
+                    <span class="item-name">旅游经历</span>
+                </a></li>
+                <li><a href="./hobby.html" title="兴趣爱好">
+                    <span class="item-name">兴趣爱好</span>
+                </a></li>
+                <li class="selected"><a href="./LAM.html" title="留言">
+                    <span class="item-name">留言</span>
+                </a></li>
+            </ul>
+        </nav>
+
+        <article id="con1"><!--主体内容一区-->
+            <form><!--表单分成了上下两块-->
+                <fieldset>
+                    <legend>your details</legend>
+                    <div class="tableRow">
+                        <label for="name">你的名字:</label>
+                        <input type="text" id="name" name="name" value=""> 
+                    </div>
+                    <div class="tableRow">
+                        <label for="BK">
+                              最喜欢哪个板块：
+                        </label>
+                        <select id="BK" name="BK"><!--选择下拉列表-->
+                          <option value="主页">主页</option>
+                          <option value="学习经历">学习经历</option>
+                          <option value="旅游经历">旅游经历</option>
+                          <option value="兴趣爱好">兴趣爱好</option>
+                        </select>
+                    </div>
+                    <div class="tableRow">
+                        <label for="BK">
+                              哪个板块需要改进：
+                        </label>
+                        <select id="BK" name="BK"><!--选择下拉列表-->
+                          <option value="主页">主页</option>
+                          <option value="学习经历">学习经历</option>
+                          <option value="旅游经历">旅游经历</option>
+                          <option value="兴趣爱好">兴趣爱好</option>
+                        </select>
+                    </div>
+                    <div class="tableRow">
+                        <label>性别:</label>
+                        <p>
+                               <input type="radio" id="female_type" name="type" value="女"> <!--单选按钮 input-->
+                                <label for="female_type">女</label><br>
+                            <input type="radio" id="male_type" name="type" value="男" checked> 
+                                <label for="male_type">男</label>
+                        </p>
+                    </div>
+                    <div class="tableRow">
+                        <label for="date">留言日期:</label>
+                        <input type="date" name="date">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Send To</legend>
+                    <div class="tableRow">
+                        <label for="comments">想说的话：</label>
+                        <textarea id="comments" name="comments"></textarea>
+                    </div>
+                    <div class="tableRow">
+                        <label></label>
+                        <input type="submit" value="提交">
+                    </div>
+                </fieldset>
+                </form>
+        </article>
+
+        <footer><!--页脚-->
+            &copy; 2022, XYJ
+            <br>
+           ALL up to XYJ!
+          </footer>
+</body>
+</html>

@@ -1,0 +1,133 @@
+body {
+    background-color: bisque;
+    margin: 0px;
+}
+.inner {
+    width: 1000px;/*凝胶布局，宽度固定，right left 自动*//*自动，随页面调整*/
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    font-size: 55px;
+    text-align: center;
+    font-family:fantasy;
+    text-shadow: 0 0 10px 	#FFE4C4,0 0 20px #FFF68F,0 0 30px #FFC1C1,0 0 40px #DB7093;
+}
+header.top {
+    height: 96px;
+    background-color: indianred;
+}
+nav {
+    height: 41px;
+    background-color: #efe5d0;
+	margin: 10px 10px 0px 10px;
+}
+nav ul {
+	margin: 0px;
+	list-style-type: none;
+	padding: 5px 0px 5px 0px;
+}
+nav ul li {
+	display: inline;
+	padding: 5px 90px 5px 90px;
+}
+nav ul li a{
+    color: #954b4b;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li.selected {
+	background-color: #c8b99c;
+}
+
+#con1{
+    height: 350px;
+    background-color: #c8b99c;
+    padding-top: 25px;
+}
+
+#cont2 {
+    height: 493px;
+    background-color: darksalmon;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-bottom: 6px solid #b09555;
+}
+#cont2 div.inner div#cont2_1 {
+    width: 312px;
+    height: 356px;
+    float: left;/*浮动布局*/
+    background-color: #f1efe3;
+    margin-top: 70px;
+}
+.picture{
+    border-radius: 20px;
+    width: 314px;
+    height: 300px;
+    position: relative;
+}
+.con{
+    color: coral;
+    text-align: center;
+}
+#cont2 div.inner div#cont2_2 {
+    width: 314px;
+    height: 356px;
+    float: left;/*浮动布局*/
+    background-color: #f1efe3;
+    margin-top: 70px;
+    margin-left: 32px;
+}
+#cont2 div.inner div#cont2_3 {
+    width: 314px;
+    height: 356px;
+    float: right;/*浮动布局*/
+    background-color: #f1efe3;
+    margin-top: 70px;
+}
+
+blockquote {
+    font-style:      italic;
+  }
+table {
+    margin-left: 400px;
+    margin-right: 400px;
+    border:           thin solid black;
+    caption-side:     bottom;
+    border-collapse:  collapse;
+  }
+  
+table table th {
+    background-color: white;
+  }
+  
+td, th {
+    border:           thin dotted gray;
+    padding:          10px;
+  }
+th {
+    background-color:indianred;
+  }
+.cellcolor {
+    background-color:coral;
+  }
+caption {
+    font-style:       italic;
+    padding-top:      16px;
+  }
+.center {
+    text-align:       center;
+  }
+  
+.right {
+    text-align:       right;
+  }
+  
+footer {
+    background-color:indianred;
+    color:            #efe5d0;
+    text-align:       center;
+    padding:          15px;
+    margin: 0px 10px 10px 10px;
+    font-size:        90%;
+  }

@@ -1,0 +1,88 @@
+body {
+    background-color: bisque;
+    margin: 0px;
+}
+.inner {
+    width: 1000px;/*凝胶布局，宽度固定，right left 自动*//*自动，随页面调整*/
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    font-size: 55px;
+    text-align: center;
+    font-family:fantasy;
+    text-shadow: 0 0 10px 	#FFE4C4,0 0 20px #FFF68F,0 0 30px #FFC1C1,0 0 40px #DB7093;
+}
+header.top {
+    height: 96px;
+    background-color: indianred;
+}
+nav {
+    height: 41px;
+    background-color: #efe5d0;
+	margin: 10px 10px 0px 10px;
+}
+nav ul {
+	margin: 0px;
+	list-style-type: none;
+	padding: 5px 0px 5px 0px;
+}
+nav ul li {
+	display: inline;
+	padding: 5px 90px 5px 90px;
+}
+nav ul li a{
+    color: #954b4b;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li.selected {
+	background-color: #c8b99c;
+}
+
+#con1{
+    height: 500px;
+    background-color: #c8b99c;
+    padding-top: 25px;
+}
+
+
+form {
+    margin-left: 300px;
+    margin-right: 300px;
+	display: table;
+	padding: 10px;
+	border: thin dotted #7e7e7e;
+	background-color: #e1ceb8;
+}
+
+div.tableRow {
+	display: table-row;
+}
+
+div.tableRow > p, div.tableRow > label, div.tableRow > input {
+	display: table-cell;
+	vertical-align: top;
+	padding: 3px;
+}
+div.tableRow label:first-child {
+	text-align: right;
+}
+form textarea {
+	display: table-cell;
+	width: 500px;
+	height: 200px;
+}
+legend {
+	font-weight: bold;
+}
+
+
+footer {
+    background-color:indianred;
+    color:            #efe5d0;
+    text-align:       center;
+    padding:          15px;
+    margin: 0px 10px 10px 10px;
+    font-size:        90%;
+  }

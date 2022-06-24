@@ -1,0 +1,79 @@
+body {
+    background-color: bisque;
+    margin: 0px;
+}
+.inner {
+    width: 1000px;/*凝胶布局，宽度固定，right left 自动*//*自动，随页面调整*/
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    font-size: 55px;
+    text-align: center;
+    font-family:fantasy;
+    text-shadow: 0 0 10px 	#FFE4C4,0 0 20px #FFF68F,0 0 30px #FFC1C1,0 0 40px #DB7093;
+}
+header.top {
+    height: 96px;
+    background-color: indianred;
+}
+nav {
+    height: 41px;
+    background-color: #efe5d0;
+	margin: 10px 10px 0px 10px;
+}
+nav ul {
+	margin: 0px;
+	list-style-type: none;
+	padding: 5px 0px 5px 0px;
+}
+nav ul li {
+	display: inline;
+	padding: 5px 90px 5px 90px;
+}
+nav ul li a{
+    color: #954b4b;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li.selected {
+	background-color: #c8b99c;
+}
+#tableContainer {
+	display: table;
+	border-spacing: 10px;
+}
+#tableRow {
+	display: table-row;
+}
+
+section#school {
+    display: table-cell;
+    background-color: #efe5d0;
+    width: 20%;
+    padding: 15px;
+    vertical-align: top;
+}
+
+section#process {
+    display: table-cell;
+    background:       #efe5d0;
+    font-size:        105%;
+    padding:          15px;
+    vertical-align: top;
+  }
+  .picture {
+    text-align:       center;
+    width: 300px;
+    height:200px;
+  }
+  
+
+footer {
+    background-color:indianred;
+    color:            #efe5d0;
+    text-align:       center;
+    padding:          15px;
+    margin: 0px 10px 10px 10px;
+    font-size:        90%;
+  }

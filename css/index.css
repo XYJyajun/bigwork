@@ -1,0 +1,136 @@
+body {
+    background-color: bisque;
+    margin: 0px;
+}
+.inner {
+    width: 1000px;/*凝胶布局，宽度固定，right left 自动*//*自动，随页面调整*/
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    font-size: 55px;
+    text-align: center;
+    font-family:fantasy;
+    text-shadow: 0 0 10px 	#FFE4C4,0 0 20px #FFF68F,0 0 30px #FFC1C1,0 0 40px #DB7093;
+}
+header.top {
+    height: 96px;
+    background-color: indianred;
+}
+nav {
+    height: 41px;
+    background-color: #efe5d0;
+	margin: 10px 10px 0px 10px;
+}
+nav ul {
+	margin: 0px;
+	list-style-type: none;
+	padding: 5px 0px 5px 0px;
+}
+nav ul li {
+	display: inline;
+	padding: 5px 90px 5px 90px;
+}
+nav ul li a{
+    color: #954b4b;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li.selected {
+	background-color: #c8b99c;
+}
+
+#container_1 {
+    height: 500px;
+    background-image: url(../images/sky.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 25px;
+}
+#mypicture{
+    border-radius: 20px;
+    width: 400px;
+    height: 400px;
+    position: relative;
+}
+#my{
+    font-weight: 200rpx;
+    font-size: 15px;
+    color: black;
+    position: absolute;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    left: 10px;
+    top:260px;
+    text-shadow: 0 0 10px 	#c4c4bf,0 0 20px #FFF68F,0 0 30px #FFC1C1,0 0 40px #DB7093;
+}
+.htitle{
+    text-align: center;
+    font-size: 27px;
+    font-family: cursive;
+    font-weight: bolder;
+    opacity: 0.5;
+    text-shadow: 0 0 10px 	#FFE4C4,0 0 20px #FFF68F,0 0 30px #FFC1C1,0 0 40px #DB7093;
+}
+.context{
+    padding-left: 20px;
+    font-size: medium;
+    opacity: 0.4;
+    text-align: justify;
+    text-indent: 1cm;  /*首行缩进*/
+}
+
+#container_2 {
+    height: 493px;
+    background-color: darksalmon;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-bottom: 6px solid #b09555;
+}
+#container_2 div.inner div#cont_2_1 {
+    width: 312px;
+    height: 356px;
+    float: left;/*浮动布局*/
+    background-color: #f1efe3;
+    margin-top: 70px;
+}
+.picture{
+    border-radius: 20px;
+    width: 314px;
+    height: 300px;
+    position: relative;
+}
+#picture_1{
+    border-radius: 20px;
+    width: 314px;
+    height:200px;
+    position: relative;
+}
+.con{
+    color: coral;
+    text-align: center;
+}
+#container_2 div.inner div#cont_2_2 {
+    width: 314px;
+    height: 356px;
+    float: left;/*浮动布局*/
+    background-color: #f1efe3;
+    margin-top: 70px;
+    margin-left: 32px;
+}
+#container_2 div.inner div#cont_2_3 {
+    width: 314px;
+    height: 356px;
+    float: right;/*浮动布局*/
+    background-color: #f1efe3;
+    margin-top: 70px;
+}
+footer {
+    background-color:indianred;
+    color:            #efe5d0;
+    text-align:       center;
+    padding:          15px;
+    margin: 0px 10px 10px 10px;
+    font-size:        90%;
+  }
+  
